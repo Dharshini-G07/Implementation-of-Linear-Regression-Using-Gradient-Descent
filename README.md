@@ -8,10 +8,23 @@ To write a program to predict the profit of a city using the linear regression m
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Import the required library and read the dataframe.
-2. Write a function computeCost to generate the cost function.
-3. Perform iterations og gradient steps with learning rate.
-4. Plot the Cost function using Gradient Descent and generate the required graph.
+1.Import Libraries
+
+2.Load Dataset
+
+3.Scale Features and Target
+
+4.Add Bias Term to Features
+
+5.Initialize Parameters
+
+6.Train with Gradient Descent
+
+7.Prepare New Input Data
+
+8.Make Prediction
+
+9.Inverse Scale the Prediction
 
 ## Program:
 ```
@@ -56,11 +69,14 @@ print(f"Predicted value: {pre}")
 ```
 
 ## Output:
-![linear regression using gradient descent](sam.png)
-![image](https://github.com/user-attachments/assets/88569b2a-a9ce-4c66-9fea-03da22f6857f)
-![image](https://github.com/user-attachments/assets/e066a5c7-e452-4ce0-ad99-70aec671162f)
-![image](https://github.com/user-attachments/assets/0e86bfa7-0f14-40d5-8a85-1e2316009df4)
-![image](https://github.com/user-attachments/assets/ea80eb5b-238a-49ac-977c-24af57ecb91b)
+## data.head()
+![image](https://github.com/user-attachments/assets/1ff649af-c10e-4a50-9892-3221e1202e71)
+## X
+![image](https://github.com/user-attachments/assets/fa0755f2-5362-4fe6-8d01-bf93d5615bcf)
+## X1_scaled
+![image](https://github.com/user-attachments/assets/83527c1c-2106-46fe-80cc-ee018a1c0174)
+## Prediction
+![image](https://github.com/user-attachments/assets/5f49a753-054f-4d37-bf4d-ab008cf34098)
 
 
 
